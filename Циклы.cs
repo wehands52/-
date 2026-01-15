@@ -11,13 +11,19 @@ namespace циклы_while_и_do_while
         static void Main(string[] args)
         {
             int a = 1;
+            int b = 1;
 
             do
             {
+                Console.Write("a= ");
                 Console.WriteLine(a);
+                Console.Write("b= ");
+                Console.WriteLine(b);
+                
                 a++;
+                b++;
             }
-            while (a < 10);
+            while (a < 12 && b < 11);
 
         }
     }
